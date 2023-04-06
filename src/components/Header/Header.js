@@ -13,9 +13,11 @@ const Header = () => {
           <li className="gNaviActivities">Activities</li>
           <li className="gNaviCareer">Career</li>
           <li className="gNaviOnlineStore">Online Store</li>
-          <div className="btn-apply btn-res opa hidden-xs "> Reservations</div>
-          <div className="btn-apply opa hidden-xs ">Delivery</div>
         </ul>
+      </div>
+      <div className="btn-home">
+        <div className="btn-apply btn-res opa hidden-xs "> Reservations</div>
+        <div className="btn-apply opa hidden-xs ">Delivery</div>
       </div>
     </div>
   );
