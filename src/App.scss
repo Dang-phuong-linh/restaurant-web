@@ -1,0 +1,41 @@
+.app-container {
+  .header-container {
+    .navigation-nav {
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 88px;
+      z-index: 999;
+      color: rgb(255, 255, 255);
+      .lcol {
+        float: left;
+        padding: 19px 0 0 28px;
+      }
+      .logo-new {
+        padding-top: 32px !important;
+      }
+      .rcol.clearfix {
+        float: right;
+        .gNavi.hidden-xs {
+          float: left;
+          margin: 35px 28px 0 0;
+          list-style: none;
+          .btn-apply.btn-res.opa.hidden-xs {
+            float: left;
+            background: #394f80;
+          }
+        }
+        .btn-apply.opa.hidden-xs {
+          float: left;
+          background: #9eaf3b;
+          line-height: 88px;
+          padding: 0 12px;
+          text-align: center;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
